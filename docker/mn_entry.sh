@@ -6,7 +6,7 @@ COIN_NAME="$1"
 masternodeprivkey="$2"
 ip=$3
 
-DLINKHOST="https://download.happyleaf.money/wallet/ubuntu18/${COIN_NAME}-light.tar.gz"
+DLINKHOST="https://download.happyleaf.money/wallet/ubuntu18"
 TARDAEMON=${COIN_NAME}-light.tar.gz
 
 
