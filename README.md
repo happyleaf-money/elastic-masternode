@@ -10,9 +10,9 @@ SETUP EXAMPLE:
     image: smartinsider/dvn-elastic-masternode:latest
     restart: unless-stopped
     environment:
-      coin: "zefir"
+      coin: "happyleaf"
       ip: "0.0.0.0"
-      masternodeprivkey: "692332AY7F89c8434S2mr55Ht4kDQ8123wU55c7co79th1nEvXa"
+      masternodeprivkey: "YOUR MN KEY"
     ports:    
       - "18001:5333"
 ```
