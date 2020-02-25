@@ -7,14 +7,12 @@ SETUP EXAMPLE:
 
 ```
   MN1:
-    image: smartinsider/dvn-elastic-masternode:latest
+    build: ./docker
     restart: unless-stopped
     environment:
-      coin: "happyleaf"
-      ip: "0.0.0.0"
-      masternodeprivkey: "YOUR MN KEY"
+      masternodeprivkey: "PUT YOUR KEY HERE"
     ports:    
-      - "18001:5333"
+      - "25001:5333"
 ```
 
 In ports section make shure that port: 18001 is unique for your server, if not change it.
