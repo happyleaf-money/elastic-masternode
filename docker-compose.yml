@@ -1,0 +1,26 @@
+version: '2'
+
+#TODO change build to image: IMAGE LINK:latest
+services:
+
+  MN1:
+    build: ./docker
+    restart: unless-stopped
+    environment:
+      masternodeprivkey: "PUT YOUR KEY HERE"
+    ports:    
+      - "25001:5333"
+    
+  MN2:
+    build: ./docker
+    restart: unless-stopped
+    environment:
+      coin: "happyleaf"
+      ip: "0.0.0.0"
+      masternodeprivkey: "PUT YOUR KEY HERE"
+    ports:    
+      - "25002:5333"
+      
+      
+      
+    
