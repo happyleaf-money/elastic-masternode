@@ -1,8 +1,6 @@
-#DOCKER FOR DIVINE.LIFE MASTERNODES
+#DOCKER FOR HAPPYLEAF MASTERNODES
 
 Supported coins:
-- cryptoyen
-- zefir
 - happyleaf
 
 SETUP EXAMPLE:
