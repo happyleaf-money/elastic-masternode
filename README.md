@@ -6,7 +6,7 @@ Supported coins:
 SETUP EXAMPLE:
 
 ```
-  MN1:
+  mn1:
     build: ./docker
     restart: unless-stopped
     environment:
